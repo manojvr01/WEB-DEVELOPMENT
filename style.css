@@ -1,0 +1,14 @@
+/* external CSS */
+h1{
+    color: rgb(49, 180, 223);
+    background-color: lightgray;
+}
+
+h2{
+    color: blue;
+    background-color: lightgrey;
+}
+
+p{
+    color: red;
+}

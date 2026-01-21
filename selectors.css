@@ -1,0 +1,40 @@
+/* universal selector */
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+/* element selector */
+p{
+    color: mediumblue;
+    background-color: yellow;
+}
+p:hover{
+    color: red;
+}
+h2{
+    color: red;
+    background-color: lightgray;
+}
+h1{
+    color: aquamarine;
+}
+/* any number of id's classes and elements can be added on the same line for same effect */
+/* id selector */
+#para, #rprp{
+    color: black;
+    font-family: cursive;
+}
+/* class selector */
+.high{
+    background-color:lightcyan;
+}
+.light{
+    font-style: italic;
+}
+/* descendant selector */
+#desc p{
+    color:brown;
+}
+/* direct child selector */
+#direct > p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

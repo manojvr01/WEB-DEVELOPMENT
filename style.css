@@ -1,14 +1,21 @@
-/* external CSS */
+/* Units are : px, em, rem, %, vw, vh */
+/* for font adjustments we use em and rem  most rem preferred for good appearance
+ h1=2em
+ h2=1.5em
+ h3=1.17em             for more precise we use rem
+ h4=1em
+ h5=0.83em
+ h6=0.67em*/
+main{
+    border: 5px solid rgb(234, 11, 11);
+    /* border-radius: 5%; */
+    /* width: 50%; */
+    /* width: 100vh; */
+}
+section{
+    border: 2px dotted blue;                   
+    /* width: 200vw; */
+}
 h1{
-    color: rgb(49, 180, 223);
-    background-color: lightgray;
-}
-
-h2{
-    color: blue;
-    background-color: lightgrey;
-}
-
-p{
-    color: red;
+    font-size: 2rem;
 }

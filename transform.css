@@ -1,0 +1,49 @@
+
+.outer-container {
+    width: 500px;
+    height: 500px;
+    background-color: darkorange;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Tranform properties
+   Scale
+   skew
+   translate
+   rotate */
+.inner-container{
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: scale(2)    it shrinks or expands  on the current size  and for x and y we use scalex and scaley */
+    /* transform: scalex(1.5); */
+    /* transform: scaley(2) */
+    /* transform: scale(1,3) */
+       
+
+
+    /* Skew */
+    /* transform: skew(55deg, 45deg);   */
+
+
+    /* translate */
+    /* transform: translate(50px, 50px);  */
+
+    /* rotate */
+    /* transform: rotate(32deg,); */
+    /* transform: rotatex(32deg); */
+    /* transform: rotatey(32deg); */
+    /* transform: rotatez(90deg); */
+
+   
+    /* transform-origin: left; */
+    transition:  10s ease;
+}
+.inner-container:hover{
+     transform: rotate(11111160deg);
+}

@@ -63,3 +63,45 @@ switch(day){
     default:
         console.log("Invalid day number");
 }
+
+
+//loops
+//for loop
+for(let i=0; i<3; i++){
+console.log("My name is Manoj",i);
+}
+ 
+//infinate loop
+//for(let i=5; i>1; i++){
+  //  console.log(i);
+//}
+
+//while loop
+let count=0;
+while(count<9){
+    console.log(count);
+    count++;
+}
+
+//do while loop
+let num=0;
+do{
+    console.log(num);
+    num++;
+}while(num<5);
+
+//continue statement
+for(let i=0; i<10; i++){
+    if(i==5){
+        continue;
+    }
+    console.log(i);
+}
+
+//break statement
+for(let i=0; i<10; i++){
+    if(i==5){
+       break;
+    }
+    console.log(i);
+}

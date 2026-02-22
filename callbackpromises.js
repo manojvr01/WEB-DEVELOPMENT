@@ -11,3 +11,34 @@ getcandies(()=>{
     console.log("here id my candy",candies);
     
 });
+const ticketbooking=new Promise((resolve,reject)=>{
+    setTimeout(()=>{
+        const error=false;
+        if(!error){
+            resolve("ticket booked successfully");
+        }
+        else{
+            reject("ticket booking failed");
+        }
+    },3000)
+});
+ticketbooking.then((message)=>{
+    console.log(message);
+}).catch((error)=>{
+    console.log(error);
+}).finally(()=>{
+    console.log("ticket booking process completed");
+});
+
+function getcandies(){
+    return new Promise((resolve,reject)=>{
+        // resolve("successfully got candies");
+        reject("Denied");
+    //     setTimeout(()=>{
+    //         const candies="🍬";
+    //         resolve(candies);
+    //     },5000)
+    });
+
+}
+console.log(getcandies());

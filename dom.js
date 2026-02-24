@@ -1,0 +1,26 @@
+// console.log(document.body)
+const bgr=document.body;
+bgr.style.backgroundColor="black";
+const div=document.getElementById("box-4");
+div.style.backgroundColor="blue";
+    
+
+//modifying html elements
+const box3=document.getElementById("box-3");
+box3.innerHTML="<h1>3 rd box</h1>";
+const box1=document.getElementById("box-1");
+box1.innerHTML="<h1> 1 st  box</h1>";
+const box2=document.getElementById("box-2");
+box2.innerHTML="<h1>2 nd box</h1>";
+const box4=document.getElementById("box-4");
+box4.innerHTML="<h1>4 th box</h1>";
+
+
+const box1c=document.getElementById("box-1");
+box1c.style.backgroundColor="black";
+const box2c=document.getElementById("box-2");
+box2c.style.backgroundColor="orange";
+
+
+const para=document.getElementById("para");
+para.style.color="green";

@@ -1,0 +1,49 @@
+javascript library particularly used for front end
+
+
+why to learn?
+  to get job,trend simple code
+  bsic neede solid javascript foundation
+  tm manage multiple page where we can use single page concept
+
+
+why this technology?
+  some drawbacks in javascript
+
+  react is a library
+   we wont hae so many restrictions ,have more freedom than a framework
+
+
+angular is a framework
+
+
+core concepts
+  where data is storing (hook)
+  ui manipulations
+  jsx
+  reusability of component
+  props keyword to communicate between concepts
+
+add ons
+  react router dom
+  state managment
+  latest contest api
+  use functional base components
+  backend use bas
+
+
+after react?
+  its not a complete support
+  it does not has seo,browser
+  no proper routing concepts
+  we can go with angular
+
+
+
+NEXT JS is react framework
+
+
+
+
+ 
+

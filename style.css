@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif
+
+}
+header{
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+.container{
+     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    align-items:center;
+    width: 500px;
+    height: 200px;
+    
+
+}
+.box{
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:0.3s ease;
+}
+.box:hover{
+    transform:scale(1.3) ;  /*  scale property for 1 is nothing greater than 1 is changes like expands and shrinks*/
+
+}
+form{
+    text-align: center;
+}
+input{
+    padding: 10px;
+}
+button{
+    padding: 12px ;
+    background-color:lightgray;
+}

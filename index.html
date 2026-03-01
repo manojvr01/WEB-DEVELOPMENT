@@ -1,13 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>react-basic-vite</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Implemetation</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header><h1 id="greeting">Hello!</h1></header>
+    <br><br><br>
+ 
+    <div class="container">
+        <div class="box" id="box-1" onclick="redfunc()">red</div>
+        <div class="box" id="box-2"  onclick="bluefunc()" >blue</div>
+        <div class="box" id="box-3"  onclick="greenfunc()">green</div>
+        <div class="box" id="box-4" onclick="yellowfunc()">yellow</div>
+    </div>
+   <br>
+    <form action="#">
+        <input type="text" id="nameInput"  placeholder="Enter your name">
+       <button type="button" onclick="greetUser()">Greet</button>
+    </form>
+    <script src="script.js"></script>
+</body>
 </html>

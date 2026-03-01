@@ -1,35 +1,30 @@
-let a=999;
-// a="manoj";
-a=true;
-let d=99;
-console.log("d is ",typeof(d));
-let c=null;
-console.log("c is ",typeof(c));
- console.log("a is ",a );
- console.log("type of a is ",typeof(a));
+function redfunc(){
+    const box1=document.getElementById('box-1')
+    box1.style.backgroundColor="red"
+    box1.style.color="white"
+    
+}
+function bluefunc(){
+    const box2=document.getElementById('box-2')
+    box2.style.backgroundColor="blue"
+    box2.style.color="white"
+    
+}
+function greenfunc(){
+    const box3=document.getElementById('box-3')
+    box3.style.backgroundColor="green"
+    box3.style.color="white"
+}
+function yellowfunc(){
+    const box4=document.getElementById('box-4')
+    box4.style.backgroundColor="yellow"
+    box4.style.color="white"
+}
+ function greetUser(){
+            const name = document.getElementById("nameInput").value;
+            const header = document.getElementById("greeting");
 
- let v1=15;
- console.log(v1 +23); 
-
- let v2="15";
-console.log(v2 +23);  // here 23 is converted to string and concatenated with "15" and result is "1523"
-
-//let result=null;
-let z=1234;
-//result=String(z);
-z=String(z);
-console.log("z is ",z);
-console.log("type of z is ",typeof(z));
-
-
-//let  m="1234";
-let m="afgbh";  //naN represents not a number
-m=Number(m);
-console.log("m is ",m);
-console.log("type of m is ",typeof(m));
-
-//let p=1234;
-let p=0;   //only 0 is converted to false and all other numbers are converted to true
-p=Boolean(p);
-console.log("p is ",p);
-console.log("type of p is ",typeof(p));
+            if(name.trim() !== ""){
+                header.textContent = "Hello, " + name;
+            }
+        }

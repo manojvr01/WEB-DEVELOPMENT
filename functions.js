@@ -6,8 +6,7 @@ console.log(a + b); //output: 30
 //function declaration
 //named function
 function add(x,y){
-    let result= x + y;
-    console.log(result);
+    console.log(x + y);
 }
 //function calling
 add(50, 10); //output: 60
@@ -117,3 +116,92 @@ console.log(result2); //output: 4
 num.forEach((num,index)=>{
     console.log("Element:",num,"Index:",index);
 })
+
+
+//tocheck characters in fucntion problem
+
+function countvowels(str){
+    let count=0;
+    for( const char of str)
+        if(char==="a" || char==="e"|| char==="i"|| char==="o"||char==="u")
+            count++;         
+console.log(count);
+}
+
+//in arrow funtion format
+const countvow=(str)=>{
+     let count=0;
+    for( const char of str)
+        if(char==="a" || char==="e"|| char==="i"|| char==="o"||char==="u")
+            count++;         
+console.log(count);
+}
+
+//for each method
+
+let brr=[2,3,45,6,7,8]
+brr.forEach((val)=>{
+    console.log(val);
+})
+
+//for the array numbers print intd square
+let arr=[2,3,4,5,6,7,8]
+arr.forEach((val)=>{
+    console.log(val*val);
+})
+
+console.log("this stops here")
+
+
+//map method for array
+let crr=[2,4,6]
+ const map=crr.map((val)=>{
+    return val
+})
+console.log(map)
+
+//map method forms new array and allos to manipualt thriugh input array
+
+let crr1=[2,4,6]
+ const map1=crr1.map((val)=>{
+    return val**2
+})
+console.log(map1)
+
+//filtermethod
+
+let crr2=[2,4,3,7,6,8]
+ const filter1=crr2.filter((val)=>{
+    return val%2==0
+})
+console.log(filter1)
+
+//alert stops the exution
+//alert("helllllllllllo");
+
+//reduce method in array
+const zrr=[1,2,3,4]
+const reduceoutput=zrr.reduce((res,cur)=>{
+    return res+cur;
+})
+console.log(reduceoutput) 
+
+//return ,max element
+
+const zrr2=[111,2,3,4]
+const reduce=zrr2.reduce((res,cur)=>{
+        //  if(res>cur)
+        //     return res
+        // else
+        //     return cur  or
+        return res>cur?res:cur;
+})
+console.log(reduce)
+
+
+//filter out students whoscored 90+
+const marks=[45,60,90,95,99]
+const gradeA=marks.filter((val)=>{
+    return val>90
+})
+console.log(gradeA)
